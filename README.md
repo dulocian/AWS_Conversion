@@ -113,9 +113,9 @@ For an Excel file with the following structure:
 The script will convert the file in the following manner:
 
 ```csv
-ID, Entry_A, Morpheme_A_1, Morphology_A_1,
-ID, Entry_A, Morpheme_A_1, Morphology_A_1, Morpheme_A_2, Morphology_A_2
-ID, Entry_A, Morpheme_A_1, Morphology_A_1, Entry_B, Morpheme_B_1, Morphology_B_1, Morpheme_B_2, Morphology_B_2
+89, Entry_A, Morpheme_A_1, Morphology_A_1,
+90, Entry_A, Morpheme_A_1, Morphology_A_1, Morpheme_A_2, Morphology_A_2
+91, Entry_A, Morpheme_A_1, Morphology_A_1, Entry_B, Morpheme_B_1, Morphology_B_1, Morpheme_B_2, Morphology_B_2
 ```
 
 ## Notes
