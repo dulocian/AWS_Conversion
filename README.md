@@ -106,10 +106,15 @@ For an Excel file with the following structure:
 | 89 | Eerste  | -s       | Eerstes    |
 | 90 | Tweede  | -en      | Tweeden    | 
 |    |         | -s       | Tweedes    | 
+| 91 | Vierde  | -s       | Vierdes    | 
+|    | Vier    | -s       | Viers      | 
+|    |         | -de      | Vierde     | 
 
-The script will produce a CSV file with headers like:
+The script will convert the file in the following manner:
 
 ```csv
+ID, Entry_A, Morpheme_A_1, Morphology_A_1,
+ID, Entry_A, Morpheme_A_1, Morphology_A_1, Morpheme_A_2, Morphology_A_2
 ID, Entry_A, Morpheme_A_1, Morphology_A_1, Entry_B, Morpheme_B_1, Morphology_B_1, Morpheme_B_2, Morphology_B_2
 ```
 
